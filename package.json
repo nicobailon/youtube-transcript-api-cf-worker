@@ -1,0 +1,21 @@
+{
+"version": "1.0.0",
+  "description": "Cloudflare Worker to convert YouTube subtitles to SRT format",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "build": "wrangler build",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "youtube-captions-scraper": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "private": true,
+  "license": "MIT"
+}
